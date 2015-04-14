@@ -27,9 +27,9 @@ puzzle-en: common-en
 	$(SOY_COMPILER) --outputPathFormat appengine/puzzle/generated/en/soy.js --srcs appengine/puzzle/template.soy
 	python build-app.py puzzle en
 
-pinball-en: common-en
-	$(SOY_COMPILER) --outputPathFormat appengine/pinball/generated/en/soy.js --srcs appengine/pinball/template.soy
-	python build-app.py pinball en
+Meclab-en: common-en
+	$(SOY_COMPILER) --outputPathFormat appengine/Meclab/generated/en/soy.js --srcs appengine/Meclab/template.soy
+	python build-app.py Meclab en
 
 maze-en: common-en
 	$(SOY_COMPILER) --outputPathFormat appengine/maze/generated/en/soy.js --srcs appengine/maze/template.soy
